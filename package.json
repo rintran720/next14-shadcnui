@@ -1,5 +1,5 @@
 {
-  "name": "next14-shadcn",
+  "name": "next14-shadcnui",
   "version": "0.1.0",
   "private": true,
   "author": {
@@ -45,8 +45,8 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "npm run lint",
-      "npm run format"
+      "eslint --fix",
+      "prettier --write ."
     ]
   }
 }
